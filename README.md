@@ -1,7 +1,7 @@
 # CollatzConjecture
 The Collatz conjecture is a conjecture in mathematics that concerns sequences defined as follows: 
 
-1. start with any positive integer n. 
+1. Start with any positive integer n. 
 
 2. Then each term is obtained from the previous term as follows: 
   1. If the previous term is even, the next term is one half of the previous term. 
