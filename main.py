@@ -9,9 +9,6 @@
 # if x is odd,then next term 3*x + 1
 # if x is even,then next term x//2
 
-# def even(n):
-#     return n%2==0
-
 def nextVal(n):
     if(n%2 == 0):
         return n//2
@@ -24,9 +21,9 @@ i = 0
 while(num != 1):
     num = nextVal(num)
     print(num)
-    i += 1 
-print("\n\n")
-print(i)
+    i = i + 1 
+
+print("\n\nFinal Value = " + str(num))
 import turtle
 
 win = turtle.getscreen()
